@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import portfolioImage1 from '../components/images/portfolioImage1.png';
 import portfolioImage2 from '../components/images/portfolioImage2.jpg';
 import portfolioImage3 from '../components/images/portfolioImage3.png';
+import portfolioImage4 from '../components/images/portfolioImage4.jpg';
+import portfolioImage5 from '../components/images/portfolioImage5.jpg';
+import portfolioImage6 from '../components/images/portfolioImage6.jpg';
 
 
 const ServicesContainer = styled.section`
@@ -58,23 +61,38 @@ const Services = () => {
     {
       title: 'EDU Meeting',
       image: portfolioImage1,
-      link: 'https://www.example1.com',
+      link: 'https://hinaaslam.github.io/EDU-Meeting/',
     },
     {
       title: 'klassy Cafe',
       image: portfolioImage2,
-      link: 'https://www.example2.com',
+      link: 'https://hinaaslam.github.io/Klassy-Cafe.github.io/',
     },
     {
       title: 'Enavo Market',
       image: portfolioImage3,
-      link: 'https://www.example3.com',
+      link: 'https://hinaaslam.github.io/envato-market/',
+    },
+    {
+      title: 'MexAnt',
+      image: portfolioImage4,
+      link: 'https://hinaaslam.github.io/Mex-Ant/',
+    },
+    {
+      title: 'Beats Solo3',
+      image: portfolioImage5,
+      link: 'https://hinaaslam.github.io/Beats-Solo3/',
+    },
+    {
+      title: 'FinLoans',
+      image: portfolioImage6,
+      link: 'https://hinaaslam.github.io/FinLoans/',
     },
   ];
 
   return (
     <ServicesContainer id="services">
-      <Title>Services</Title>
+      <Title>My Websites</Title>
       <CardContainer>
         {portfolioWebsites.map((website, index) => (
           <Card key={index}>
